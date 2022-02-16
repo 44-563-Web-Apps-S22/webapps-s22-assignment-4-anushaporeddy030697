@@ -1,85 +1,33 @@
-.speech {
-    font-size: 10px;
-    color: black;
-    font-family: "Times New Roman";
-}
-.direction {
-    font-size: 15px;
-    color: black;
-    background-color: lavender;
-    font-family: "Times New Roman";
-}
-h6.direction:hover {
-    background-color: cornsilk;
-    color: skyblue;
-}S
-.name {
-    font-size: 15px;
-    color: black;
-    font-family: "Times New Roman";
-}
-h6.name {
-    margin-block: auto;
-}
-.Mme {
-    color: crimson;
-}
-.Elmire {
-    color:cornflowerblue;
-}
-.Dorine {
-    color:darkkhaki
-}
-.Damis {
-    color:darkseagreen;
-}
-.Mariane{
-    color:darkgray;
-}
-table, th, td {
-    border:1px solid palevioletred;
+.speech{font-size: large;font-style: italic;color:black;}
+.direction{font-size: large;font-style: normal;color: black;background-color: blanchedalmond;}
+.direction:hover{background-color: burlywood;color: chocolate;}
+.Dorine{font-size: medium;font-style: italic;color: cornflowerblue;}
+.Orgon{font-size: medium;font-style: normal;color: crimson;}
+.names{color: darkgoldenrod;font-size: small;}
+.Table,th,td,tr{border: 1mm; border-color:darkgrey ; border-style: double; color: rgb(11, 114, 117); text-align: left; padding: 1mm; margin: 1cm;}
+.tr:nth-child(even){
+    background-color: rgb(135, 235, 213);
   }
-th, td {
-    border: 1px solid #4dd0e1;
-}
-table {
-    border: 1px solid white;
-}
-tbody tr:nth-child(odd) {
-    background-color: rgb(233, 75, 212);
-    margin: 2px;
-    padding: 2px;
- }
-.hari {
-    margin: 2px;
-    padding-top: 1rem;
-}
-.playStyle {
-    font-style: italic;
-    font-size: 18px;
-    font-family: monospace;
-    border: 2px solid purple;
-}
-h6.name:hover {
-    border: 1px solid #ae92e2;
-    padding: 10px;
-    box-shadow: 5px 10px #ae92e2;
-}
+.name:hover{text-shadow:1px 2px 3px rgb(rgb(10,7,8)); color:violet;filter: green(3px);border: double 2px black;} 
 ul.navbar-horizontal {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
-ul.navbar-horizontal li {
+ul.navbar-horizontal li{
     float:left;
-    background-color: darkviolet;
+    background-color: darkolivegreen;
 }
-ul.navbar-horizontal a {
+ul.navbar-horizontal a{
     display:block;
-    padding:8px;
-    color: floralwhite;
+    padding:30px;
+    margin:10px;
 }
 ul.navbar-horizontal a:hover {
-    background-color: darkslateblue;
-    color:yellowgreen;
+    background-color: #555;
+    color:grey;
 }
+icon{
+    align-items: center;
+}
+
