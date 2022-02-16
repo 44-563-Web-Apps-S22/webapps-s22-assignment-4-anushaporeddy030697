@@ -4,8 +4,8 @@
 .Dorine{font-size: medium;font-style: italic;color: cornflowerblue;}
 .Orgon{font-size: medium;font-style: normal;color: crimson;}
 .names{color: darkgoldenrod;font-size: small;}
-.Table,th,td,tr{border: 1mm; border-color:darkgrey ; border-style: double; color: rgb(11, 114, 117); text-align: left; padding: 1mm; margin: 1cm;}
-.tr:nth-child(even){
+table,th,td,tr{border: 1mm; border-color:darkgrey ; border-style: double; color: rgb(11, 114, 117); text-align: left; padding: 1mm; margin: 1cm;}
+tr:nth-child(even){
     background-color: rgb(135, 235, 213);
   }
 .name:hover{text-shadow:1px 2px 3px rgb(rgb(10,7,8)); color:violet;filter: green(3px);border: double 2px black;} 
